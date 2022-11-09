@@ -1,0 +1,23 @@
+.select-pokedex{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(182, 173, 173);
+    border-radius: 25px;
+}
+option{
+    background-color: #063535f1;
+    border-radius: 25px;
+}
+.select-pokedex::-webkit-scrollbar{
+    width: 1px;
+}
+.select-pokedex::-webkit-scrollbar-thumb{
+    background-color: 2px solid #235858f1;
+    border-radius: 20px;
+    border-left: solid #000707f1;
+}

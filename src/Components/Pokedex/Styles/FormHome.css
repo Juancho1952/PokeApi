@@ -1,0 +1,24 @@
+.pokedex__form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.pokedex__input{
+    border-radius: 9px;
+    font-size: 15px;
+    font-family: inherit;
+    background-color: var(--Bg-container-home);
+    color: var(--Bg-letter);
+    text-align: center;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+button{
+    background-color: transparent;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--Bg-letter);
+}

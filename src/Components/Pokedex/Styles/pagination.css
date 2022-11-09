@@ -1,0 +1,29 @@
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.pagination__container {
+    display: flex;
+    gap: 5px;
+}
+.pagination__prev,
+.pagination__next,
+.pagination__page {
+    cursor: pointer;
+    width: 20px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination__active {
+    background-color: rgba(255, 0, 0, 0.582);
+    border-radius: 45%;
+    height: 38px;
+    color: aliceblue;
+}
